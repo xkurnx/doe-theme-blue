@@ -1,0 +1,827 @@
+html, body{
+	background: url(i/bottomborder.gif) 0 100% repeat-x;
+	min-height:0;
+	}
+
+	
+	#innerWrapper{
+	border-top:6px solid #1883d6;
+	border-bottom:6px solid #1883d6;
+	}
+	
+	
+	#wrapper {
+		background: url(i/topborder.gif) repeat-x top left;
+	}
+	
+		
+		/*tc logo*/
+		#siteLogo{
+			display:inline-block;
+			margin-top:30px;
+			}
+		/*tc logo*/
+		#topcoderLogo{
+			margin-left:28px;
+			margin-top:42px;
+			}
+		/*topmenu*/
+			/* Top Menu */
+			.topMenu {
+				display: inline;
+				float:right;
+				margin-top: 66px;
+			}
+				.topMenu li {
+					float:left;
+					position:relative;
+					margin-left:6px;
+				}
+					.topMenu li a {
+						display:inline-block;
+						font-weight:normal;
+						color:#484848;
+						font-size:16px;
+						line-height:19px;						
+						background:#d8d8d8;
+						padding:10px 20px 14px 20px;
+						text-align: center;
+						width: 115px;						
+					}
+					
+					.topMenu li.current-menu-item a{
+						background:#1883d6;
+						color:#fff;
+					}
+					
+					.topMenu li a:hover{	background: #399ae5; color:#fff; }
+					.topMenu li.current-menu-item a:hover,.topMenu li.current-menu-item a:hover { background:#1883d6; color:#fff;}
+		
+			
+		.topMenu li:hover, 
+		.topMenu li.current-menu-item, 
+		.topMenu li.current-menu-item:hover {
+			background: url(i/menu-active.png) 50% 100% no-repeat;
+		}
+		#contentArea{
+			width:890px;
+			margin:0 auto;
+			padding:0 0 20px;
+			background:url(i/shadow.png) center bottom no-repeat;
+			}
+		.homeMain #contentArea{
+			width:650px;
+			float:left;
+			line-height:1.5em;
+			padding-left:14px;
+			padding-top:10px;
+			margin-left:14px;
+			padding-right:0px;
+			border-left:1px dashed #cccccc;
+			}
+			
+			#contentArea{
+				font-size:12px;
+				color:#525252;
+				}
+				#contentArea p{
+					line-height:18px;
+					padding-bottom:20px;
+					}
+				
+				#contentArea h2 {
+					color: #1883d6;
+					font-size: 25px;
+					font-weight: normal;
+					border-bottom:1px solid #b1d3ed;
+					padding-bottom:10px;
+					padding-top:10px;
+				}						
+				
+				#contentArea h3{
+					font-weight:normal;
+					padding-top:11px;
+					padding-bottom:5px;
+					font-size:16px;
+					color:#1883d6;
+					}
+				#contentArea ul {
+					padding:2px 0 10px 35px;
+				}
+				#contentArea ol{
+					padding:10px 0px 10px 50px;
+					list-style: decimal;
+					}
+				#contentArea ol li{
+					font-size:12px;
+					padding-bottom:12px;
+					}
+				#contentArea ul li{
+					font-size:12px;
+					}
+				
+				table {
+					width:635px;
+					margin:0 auto;
+					margin-top:20px;
+				}
+				
+				table th{
+					height:45px;
+					line-height:45px;
+					font-size:14px;
+					background:#1883d6;
+					height:auto;
+					color:#fffffe;
+					text-align:left;
+					padding:0 10px;
+					}
+					
+				table th.first{
+					padding-left:27px;
+					}	
+				tbody tr td a:link,tbody tr td a:visited {color:#1883d6}
+				tr td{padding:5px 10px;font-size:12px;vertical-align:middle;}
+				thead tr td{background:#ffffff;}
+				tbody tr td strong,tbody tr td a {color:#FFF}
+				tbody tr td a:hover {text-decoration:underline}
+				tbody tr.odd td{background:#efefef}
+				tr td.num{
+					text-align:right;
+					}
+				#contentArea table p {padding-bottom:0px;}
+				
+		/*middle big banner*/
+		#contentWrapper{
+			/*width:890px;*/
+			margin:0 auto;
+			padding-top:0px;
+			border-top:0px;
+			background: url(i/bg_body.png) repeat-x top left;
+			}
+
+				#homeBanner{
+					height:315px;
+					margin:0 auto;
+					color:#fff;
+					background:#1883d6;
+					border:1px solid #1883d6;
+				}
+				
+				#challengePage{
+					padding:0px;
+				}
+				#challengePage #homeBanner img{
+					display:block;
+					position:absolute;
+					}			
+				#homePage #homeBanner{
+					background:none;
+					border:none;
+					margin:0 auto;
+							color:#fff;
+							margin-bottom:20px;
+							}
+					
+				#homeBanner  .introContent{ 
+					margin:28px 10px; 
+					font-size:14px;
+					position:relative;
+					z-index:1;	
+					}
+				#homePage #homeBanner  .introContent{ 
+					margin:22px 20px 20px; 
+					text-shadow:0 1px 1px #272822;
+				}
+				
+				#homeBanner h2{
+					font-size:45px;
+					padding-bottom:10px;
+					font-weight:normal;
+					font-family:Arial;
+				}
+				#homeBanner h3{
+					padding-bottom:5px;
+					}
+				#challengePage #homeBanner p{
+							position:relative;
+							z-index:2;
+							text-shadow:0 -1px 1px #cf6017;
+							width:380px;	
+							margin:0 0 0 87px;							
+							font-size:14px;
+							line-height:18px;
+							
+							}
+				
+				#challengePage .introContent{
+					width:890px;
+					margin:22px auto 20px;
+					}
+				#homePage #videoOverview	{
+					height:auto;
+					background:#5c6428;
+					margin:0 auto;
+					width:852px;
+					padding:15px 20px;
+					margin-bottom:20px;
+				}	
+
+				#homePage #videoOverview .btnWatch{
+					color:#fff;
+					background:url(i/icon-watch.png) no-repeat;
+					padding:13px 5px 13px 50px;
+					float:left;
+					margin-left:315px;
+				}
+
+				#homePage #videoOverview .btnWatch:hover{
+					color:#f9dfda;
+				}	
+				
+				#homePage #videoOverview .intro{
+					font-size:14px;
+					line-height:18px;
+					color:#fff;
+					clear:both;
+					text-align:center;
+				}				
+		
+		/*middle three banners*/
+		#homeBottomBanner{
+			margin:0 auto;
+			}
+			#homeBannerLeft{
+				background: url(i/homeBannerLeft.png) repeat-x;
+			}
+			#homeBannerLeft:hover{
+				background: url(i/homeBannerLeftHover.png) repeat-x;
+				}
+				#homeBottomBanner #homeBannerLeft,
+				#homeBottomBanner #homeBannerLeft:visited{
+					font-size:24px;
+					font-family:'Myriad Pro';
+					padding-top:60px;
+					text-align:center;
+					font-weight:normal;
+					height:74px;
+					}
+			#homeBannerMiddle{
+				background: url(i/homeBannerMiddle.png) repeat-x;
+			}
+			#homeBannerMiddle:hover{
+				background: url(i/homeBannerMiddleHover.png) repeat-x;
+			}
+				#homeBottomBanner #homeBannerMiddle,
+				#homeBottomBanner #homeBannerMiddle:visited{
+					font-size:12px;
+					font-weight:normal;
+					padding-top:20px;
+					height:114px;
+					}
+					#homeBottomBanner #homeBannerMiddle strong{
+						font-size:24px;
+						}
+			#homeBannerRight {
+				background: url(i/homeBannerRight.png) repeat-x;
+			}
+			#homeBannerRight:hover {
+				background: url(i/homeBannerRightHover.png) repeat-x;
+			}
+				#homeBottomBanner #homeBannerRight,
+				#homeBottomBanner #homeBannerRight:visited{
+					font-size:12px;
+					height:114px;
+					font-weight:normal;
+					color:#143e73;
+					padding-top:20px;
+					}
+					#homeBottomBanner #homeBannerRight strong{
+						font-size:24px;
+						}
+		/*footer*/
+		#footer{
+			padding:27px 0;
+			border-top:1px solid #cccccc;
+			}
+			#footerInner{
+				width:890px;
+				margin:0 auto;
+				}
+			.footerMenu li {
+				height: 33px;
+				width: 32px;
+				margin-left:5px;
+				margin-right:0;
+				position:relative;
+				top:-6px;
+				}
+				.footerMenu li a{
+					text-indent: -999999px;
+				}
+				.iconNews a{
+					background: url(i/iconNews.png) no-repeat;
+					}
+				.iconBlog a{
+					background: url(i/iconBlog.png) no-repeat;
+					}
+				.iconTwitter a{
+					background: url(i/iconTwitter.png) no-repeat;
+					}
+				.iconYoutube a{
+					background: url(i/iconYoutube.png) no-repeat;
+					}
+				.iconFacebook a{
+					background: url(i/iconFacebook.png) no-repeat;
+					}
+				.footerMenu li a{
+					background-position:0px 3px;	
+				}
+				.footerMenu li a:hover{
+					background-position:0px 0px;	
+				}				
+
+
+#homePage #homeBottomBannerNew .box{
+width:290px;
+height:216px;
+	position:relative;
+	color: #fff;
+	display: inline;
+	float: left;
+	margin: 0 10px 0px 0px;
+	}
+#challengePage #homeBottomBannerNew .box{
+	padding: 10px 10px 6px 10px;
+	font-size: 11px;
+	height: 200px;
+	width: 270px;
+}
+#homePage #homeBottomBannerNew .box img{
+	position:absolute;
+	}
+#homePage #homeBottomBannerNew .box h2{
+	font-size:20px;
+	position:absolute;
+	top:5px;
+	left:10px;
+	}
+	#homePage #homeBottomBannerNew .box h2 small{
+		font-weight:normal;
+		font-size:16px;
+		}
+#homePage #homeBottomBannerNew .bottomRightImage{
+margin-right:0;
+}
+/*main*/
+.main{
+	width:890px;
+	margin:0 auto;
+	}
+.homeMain{
+	background:url(i/line.png) repeat-y 220px 0;
+	padding:2px  0 0;
+	}
+/*sidebar*/
+.sideBar{
+	float:left;
+	width:210px;
+	padding-top:10px;
+	}
+/*widget*/
+.widget{
+	position:relative;
+	margin-bottom:17px;
+	background: url("i/side_widget_bg.png") repeat-y scroll 0 0 transparent;
+    margin-bottom: 15px;
+
+	}
+	.widget h2{
+		color: #FFFFFF;
+		font-size: 15px;
+		height: 51px;
+		line-height: 45px;
+		padding-left: 60px;
+		}
+		
+	.widget p,
+	.widget ul,
+	.widget ol{
+		margin:5px 17px 0px 20px;
+	}	
+	
+.activeContestWidger{
+	padding-bottom:0;
+	}
+	.activeContestWidger ul{
+		padding-top:10px;
+		}
+		.activeContestWidger li{
+			margin-bottom:11px;
+			border-bottom:1px dotted #cccccc;
+			font-size:11px;
+			padding-bottom:13px;
+			}
+		.activeContestWidger li.lastItem{
+			border-bottom:none;
+			margin-bottom:0;
+	}
+			.activeContestWidger li a,
+			.activeContestWidger li a:visited{
+				color:#356697;
+				text-decoration:none;
+				font-size:12px;
+				font-weight:bold;
+				}
+			.activeContestWidger li a:hover{
+				text-decoration:underline;
+				}
+			.activeContestWidger li .prize{
+				color:#525252;
+				}
+			.activeContestWidger li .dateStartsOn{
+				color:#525252;
+				}
+			.activeContestWidger li label{
+				font-weight:bold;
+				}
+			.activeContestWidger li .description{
+				color:#a4a3a4;
+				line-height:14px;
+				}
+	.corners{
+		background-image: url(i/corners.png);
+		background-repeat: no-repeat;
+		position:absolute;
+		width:3px;
+		height:3px;
+		display:block;
+		}
+	.tl{
+		top:0;
+		left:0;
+		background-position:0 0;
+		}
+	.tr{
+		top:0;
+		right:0;
+		background-position:-3px 0;
+		}
+	.bl{
+		bottom:0;
+		left:0;
+		background-position:0 -3px;
+		}
+	.br{
+		bottom:0;
+		right:0;
+		background-position:-3px -3px;
+		}
+.post{
+	color:#525252;
+	font-size:11px;
+	line-height:16px;
+	}
+.post ul{
+	}
+	.post ul li{
+		padding-left:12px;
+		color:#525252;
+		font-size:11px;
+		background:url(i/listStyle.png) no-repeat 0 4px;
+		}
+	.post a,
+	.post a:visited{
+		color:#1883d6;
+		text-decoration:none;
+		}
+	.post a:hover{
+		text-decoration:underline;
+		}
+		
+.howToCompleteWidget h2,
+.learnCrowdsourcingWidget h2{
+	background: url("i/icon-bracket.png") no-repeat 0 0 transparent;	
+	color:#ffffff;
+	padding:0;
+	height:51px;
+	line-height:45px;
+	padding-left:16px;
+    text-align: center;
+	margin:0 0 11px 0;
+}
+.howToCompleteWidget ul{
+	padding-top:6px;
+	padding-left:10px;
+	}
+	.howToCompleteWidget p{
+		padding-bottom:14px;
+		}
+
+
+.learnCrowdsourcingWidget p{
+	padding:0px 0px 5px 5px;
+} 		
+		
+.learnCrowdsourcingWidget h2{
+	background: url("i/icon-head.png") no-repeat 0 0 transparent;	
+	height: auto;
+    line-height: 15px;
+	height:64px;
+	text-align:left;
+	padding-top:17px;
+	padding-left:64px;
+}		
+.bottomAction{
+	text-align:center;
+	padding-top:17px;
+	border-top:1px dotted #cccccc;
+	margin:0px 12px 0px 18px;
+	}
+	.bottomAction a.btnRegister,
+	.bottomAction a.btnViewAll{
+		width:113px;
+		height:28px;
+		margin:0 auto;
+		display:block;
+		background:url(i/btn-register.png) no-repeat 0 0;
+		
+		}
+	.bottomAction a.btnViewAll{
+		background:url(i/btn-viewall.png) no-repeat 0 0;
+		}	
+	.bottomAction a:hover{
+		background-position:0 -28px;
+		}
+
+		
+
+.post img{
+	}
+.post .wp-caption.alignleft,
+.post img.alignleft {
+   display:inline;
+   margin-left:0;
+   float:left;
+   margin-right:1.625em;
+		}
+.post .wp-caption.alignright,
+.post img.alignright{
+   display:inline;
+   margin-right:0;
+   float:right;
+   margin-left:1.625em;
+	}
+.post .wp-caption.aligncenter,
+.post img.aligncenter{
+   clear:both;
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+	}
+.wp-caption {
+	-webkit-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+    -moz-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+    box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+	
+	width:auto;
+	text-align:center;
+	height:auto;
+	padding:13px 11px 0;
+	display:inline-block;
+	margin:0 15px 10px;
+	}
+.post img{
+-webkit-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+-moz-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+	
+	width:auto;
+	text-align:center;
+	height:auto;
+	display:inline-block;
+	margin:0 15px 10px;
+	}
+.post .wp-caption img {
+	border:1px solid #5c6428;
+	margin: 0;
+	padding: 0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 1em;
+	line-height: 17px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 0;
+}
+
+/*modal*/
+.modalWrapper {
+	background: url(i/modal-wrapper.png) repeat top left;
+	z-index:100;
+}
+#modalBox {
+	width: 602px;
+	position:fixed;
+
+}
+#closeModal {
+position: absolute;
+top: 11px;
+right: 8px;
+width: 18px;
+height: 18px;
+background: url(i/close-modal.png) no-repeat top left;
+}
+#modalBox .modalContentBox{
+	border: 1px solid #1b1b1b;
+	background: #fff;
+	padding-bottom: 0;
+
+}
+#modalBox iframe{
+	margin: 0;
+
+}
+.videoContent{
+
+	width: 500px;
+	height: 355px;
+}
+#modalBox .header{
+	background: no-repeat #1883d6;
+	border: 1px solid #1883d6;
+	color: #fffffe;
+	font-family:arial;
+	padding-left: 10px;
+	font-size: 12px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: bold;
+}
+
+/* boxs */
+.featuredBox{
+	float:left;
+	width:320px;
+}
+
+	.featuredBox .content{
+		padding:14px;	
+		background:#1883d6;
+		color:#fff;
+		height:130px;	
+	}
+	
+	.featuredBox.registerBox{
+		width:650px;
+		height:155px;
+	}
+	
+	
+	.featuredBox.registerBox .content{
+		height:80px;
+	}
+	
+	.featuredBox.registerBox,
+	.featuredBox.learnBox
+	{margin-right:10px;}
+	
+	.featuredBox.learnBox .content{
+		background:#115b95;
+	}
+	
+		#contentArea .featuredBox.learnBox a span{
+		background:url(i/icon-box-cocei.png) 10px 0px no-repeat;
+	}	
+	
+	#contentArea .featuredBox.harvardBox a span{
+		background:url(i/icon-box-harvard.png) 6px 0px no-repeat;
+	}
+	#contentArea .featuredBox h2{
+		border:none;
+		margin:0 0 8px;
+		padding:0px;
+		font-size:18px;
+		color:#fff;
+		font-weight:normal;
+		font-family:Helvetica;
+		line-height:20px;
+	}
+	
+	#contentArea .featuredBox h2.oneline{
+		margin-bottom:28px;
+	}
+	
+	#contentArea .featuredBox a{
+		background:#313131;
+		display:block;
+		font-size:16px;
+		height:50px;
+		color:#fff;
+		float:left;
+		width:320px;
+	}
+	
+	#contentArea .featuredBox a:hover{
+		background:#605e5e;
+		text-decoration:none;
+	}
+	
+	#contentArea .featuredBox a span{
+		background:url("i/icon-box-register.png") no-repeat scroll 10px 0px transparent;
+		font-size: 15px;
+		line-height: 20px;
+		float:left;
+		margin-top:6px;
+		margin-left:5px;
+		padding: 6px 20px 8px 50px;
+	}
+	/* register box at challenge detail */
+	#contentArea .featuredBox.registerBox{
+		margin-bottom:13px;
+	}
+	#contentArea .featuredBox.registerBox  h2.oneline{
+		margin-bottom:13px;
+	}
+	#contentArea .featuredBox.registerBox a{
+		width:650px;
+	}
+	
+	#challengePage .featuredBox.registerBox a span{
+		background-position: 10px 0;
+		margin-left: 260px;
+	}
+	
+	/* harvard box at challenge detail */
+	#contentArea .featuredBox.harvardBox .content{
+		background:#003660;
+	}
+	
+
+/* homepage */
+#homePage .featuredBox.registerBox a,
+#homePage .featuredBox,
+#homePage .featuredBox a{
+	width:290px;
+}
+
+#homePage .featuredBox a span{
+	background-position:10px 0px;
+}
+
+#homePage .featuredBox.registerBox .content{
+	height:130px;
+}
+
+#homePage .featuredBox.registerBox a span{ 
+	background-position: 10px 0;
+	padding-right: 20px;
+}	
+
+#homePage{
+	border-top:6px solid #1883d6;
+}
+
+#homePage #contentWrapper{
+	padding-top:38px;
+	background:none;
+	display:block;
+}
+
+/* overwrite to Blue theme */
+
+#homePage #btnRegisterVideo, 
+#homePage #btnRegisterVideo:visited {
+	background: url("i/btn-register2.png") no-repeat 0 0;
+	width: 219px;
+	height: 54px;
+	top: 295px;
+	right: 20px;
+	display: block;
+	position: absolute;
+	overflow:hidden;
+	padding-top:0;
+}
+#homePage #btnRegisterVideo:hover{
+	background-position:0 -54px;
+	}
+
+.bannerRegisterContent {
+font-size: 12px;
+font-weight: bold;
+color: #ffffff;
+text-shadow: 0 1px 1px #2a2c20;
+line-height: 14px;
+width: 555px;
+position: absolute;
+left: 20px;
+top: 300px;
+}
+
+#homePage #videoOverview	{
+	background:#115B95;
+	}
